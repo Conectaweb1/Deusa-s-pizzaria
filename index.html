@@ -94,6 +94,37 @@
             transition: transform 0.3s ease-in-out;
         }
         .menu-open { transform: translateX(0) !important; }
+        /* AJUSTES PARA 3 CARDS NO CELULAR */
+@media (max-width: 640px) {
+    .pizza-card h4 {
+        font-size: 0.9rem; /* título menor */
+        line-height: 1.1;
+    }
+
+    .pizza-card p {
+        font-size: 0.7rem; /* descrição menor */
+        line-height: 1.1;
+    }
+
+    .pizza-card .p-6 {
+        padding: 0.75rem; /* menos espaço interno */
+    }
+
+    .pizza-card .h-52 {
+        height: 130px; /* imagem menor */
+    }
+
+    .pizza-card button {
+        font-size: 0.7rem;
+        padding: 0.5rem;
+    }
+
+    .pizza-card select {
+        font-size: 0.65rem;
+        padding: 0.4rem;
+    }
+}
+
     </style>
 </head>
 <body class="overflow-x-hidden">
@@ -583,3 +614,4 @@ _Pedido enviado via site Deusa's Pizza_`
 </body>
 
 </html>
+
